@@ -2,7 +2,6 @@ package lexer
 
 import (
 	"arkdev9/monkey/token"
-	"fmt"
 )
 
 func newToken(tokenType token.TokenType, ch byte) token.Token {
@@ -77,7 +76,6 @@ func (l *Lexer) skipWhitespace() {
 
 func (l *Lexer) NextToken() token.Token {
 	var tok token.Token
-	fmt.Println("----------------------\n", l, "\n------------------------")
 
 	l.skipWhitespace()
 
