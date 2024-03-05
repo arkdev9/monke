@@ -1,4 +1,4 @@
-# Monkey
+# monke
 
 An implementation of the monkey-lang specified in the book "Writing an Interpreter in Go" by Thorsten Ball.
 
